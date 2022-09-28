@@ -1,5 +1,6 @@
 package com.example.ideaplugindemo;
 
+import com.example.ideaplugindemo.dlg.DJTDlg;
 import com.intellij.openapi.components.ApplicationComponent;
 
 /**
@@ -8,4 +9,15 @@ import com.intellij.openapi.components.ApplicationComponent;
  */
 public class MyApplicationAction implements ApplicationComponent {
 
+    @Override
+    public void initComponent() {
+        ApplicationComponent.super.initComponent();
+        DJTDlg djtDlg = new DJTDlg();
+        djtDlg.show();
+    }
+
+    @Override
+    public void disposeComponent() {
+        ApplicationComponent.super.disposeComponent();
+    }
 }
