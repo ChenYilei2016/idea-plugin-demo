@@ -36,7 +36,7 @@
 
     <application-components>
         <component>
-            <implementation-class>com.example.ideaplugindemo.DJTDlg</implementation-class>
+            <implementation-class>com.example.ideaplugindemo.MyApplicationAction</implementation-class>
         </component>
     </application-components>
 </idea-plugin>

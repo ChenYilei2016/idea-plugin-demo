@@ -1,4 +1,4 @@
-package com.example.ideaplugindemo;
+package com.example.ideaplugindemo.dlg;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
@@ -7,6 +7,9 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+/**
+ * 毒鸡汤dlg
+ */
 public class DJTDlg extends DialogWrapper {
 
     protected DJTDlg() {
